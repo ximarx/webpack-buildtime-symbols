@@ -1,0 +1,32 @@
+{
+  "name": "webpack-buildtime-symbols",
+  "version": "0.0.1",
+  "description": "Convert symbols to strings at build-time",
+  "files": [
+    "lib/runtime.js",
+    "lib/plugin.js"
+  ],
+  "engines": {
+    "node": ">= 12.20.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ximarx/webpack-buildtime-symbols.git"
+  },
+  "keywords": [
+    "webpack-plugin",
+    "stimulus"
+  ],
+  "author": "Francesco Capozzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ximarx/webpack-buildtime-symbols/issues"
+  },
+  "homepage": "https://github.com/ximarx/webpack-buildtime-symbols#readme",
+  "peerDependencies": {
+    "webpack": "4"
+  }
+}
