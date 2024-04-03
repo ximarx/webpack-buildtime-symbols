@@ -1,6 +1,6 @@
 {
   "name": "webpack-buildtime-symbols",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert symbols to strings at build-time",
   "files": [
     "lib/runtime.js",
