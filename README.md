@@ -36,7 +36,7 @@ module.exports = {
 **any-file.js|ts**
 
 ```js
-import {BUILDTIME_SYMBOL_TO_STRING} from "webpack-buildtime-symbols/lib/runtime";
+import {BUILDTIME_SYMBOL_TO_STRING} from "webpack-buildtime-symbols";
 import {ClassName} from "another-place";
 
 console.log("Runtime: ", BUILDTIME_SYMBOL_TO_STRING(ClassName));
