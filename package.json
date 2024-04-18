@@ -1,13 +1,13 @@
 {
   "name": "webpack-buildtime-symbols",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Convert symbols to strings at build-time",
   "files": [
     "lib/runtime.js",
+    "lib/runtime.d.ts",
     "lib/plugin.js"
   ],
   "main": "lib/runtime.js",
-  "types": "lib/runtime.d.ts",
   "engines": {
     "node": ">= 12.20.0"
   },
